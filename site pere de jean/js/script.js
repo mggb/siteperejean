@@ -12,82 +12,69 @@ close.addEventListener('click',function () {
 
 
 
+var listpack = document.querySelectorAll('.textinlistPack')
+var pagepack = document.querySelector('.container-page-pack');
+for (let i = 0; i < listpack.length; i++) {
+  listpack[i].addEventListener('click', function () {
+    console.log('ahh');
+    var content = "<div class='ContainerHeaderPack'>";
+         content += "<div class='container-header-pack'>";
+           content += "<div class='containerImage'>";
+             content +="<img class='imageheaderpack' src="+data.pack[i].img+"alt=''>";
+           content += "</div>";
+           content += "<div class='containerTitleHeaderPack'>";
+             content += "<h2 class='titlePagePack'>";
+             content += data.pack[i].title;
+             content += "</h2>";
+           content += "</div>";
+         content += "</div>";
+         content += "  <ul class='containerListPack'>";
+           content += "<li class='ListPack'>";
+             content += "<p class='textinlistPack'>pack createur</p>";
+           content += "</li>";
+           content += "<li class='ListPack'>";
+             content += "<p class='textinlistPack'>pack complet</p>";
+           content += "</li>";
+           content += "<li class='ListPack'>";
+             content += "<p class='textinlistPack'>pack complet</p>";
+           content += "</li>";
+         content += "</ul>";
+       content += "</div>";
+       content += "<div>";
+         content += "<section class='sizesection SecondSection'>";
+           content += "<p class='header-page-information text-presentation-pack'>";
+           content += data.pack[i].description;
+           content += "</p>";
+           content += "<img class='SecondSection-image-work' src='";
+           content += data.pack[i].imgbody;
+           content += "'alt='work'>";
+           content += "<h3 class='title-list-container-pack'>";
+           content += data.pack[i].containeurlist;
+           content += "</h3>";
+           content += "<ul class='container-list-pack'>";
+             content += "<li class='contain-list-pack'>";
+             content += data.pack[i].text1;
+             content += "</li>";
+             content += "<li class='contain-list-pack'>";
+             content += data.pack[i].text2;
+             content += "</li>";
+             content += "<li class='contain-list-pack'>";
+             content += data.pack[i].text3;
+             content += "</li>";
+             content += "<li class='contain-list-pack'>"
+             content += data.pack[i].text4;
+             content += "</li>";
+             content += "<li class='contain-list-pack'>";
+             content += data.pack[i].text5;
+             content += "</li>";
+             content += "<li class='contain-list-pack'>";
+             content += data.pack[i].text6;
+             content += "</li>";
+           content += "</ul>";
+         content += "</section>";
+       content += "</div>";
+     content += "</section>";
 
-
-///////////
- var pagepack = document.querySelector('.container-page-pack');
- var content = "<div class='ContainerHeaderPack'>";
-      content += "<div class='container-header-pack'>";
-        content += "<div class='containerImage'>";
-          content +="<img class='imageheaderpack' src='";
-          content += data.GoodPlace[i].reponse3;
-          content +=  " 'alt=''> ";
-        content += "</div>";
-        content += "<div class='containerTitleHeaderPack'>"
-          content += "<h2 class='titlePagePack'>"
-          content += data.GoodPlace[i].reponse3;
-          content += "</h2>"
-        content += "</div>"
-      content += "</div>"
-      content += "  <ul class='containerListPack'>";
-        content += "<li class='ListPack'>";
-          content += "<p class='textinlistPack'>pack createur</p>"
-        content += "</li>";
-        content += "<li class='ListPack'>";
-          content += "<p class='textinlistPack'>pack complet</p>";
-        content += "</li>";
-        content += "<li class='ListPack'>";
-          content += "<p class='textinlistPack'>pack complet</p>";
-        content += "</li>";
-      content += "</ul>";
-    content += "</div>";
-
-
-
-
-var section = document.querySelector('.section');
-var content = "<div class='container'>";
-content += "<div class='question'>";
-content += "<p class='textinanswer'>";
-content += data.GoodPlace[i].question;
-content += "</p>";
-content += "</div>";
-content += "<div class='containerAwswer'>";
-content += "<ul class='ul'>";
-content += "<li class='awswer'>";
-content += "<p class='textinanswer'data-key=1>";
-content += data.GoodPlace[i].reponse1;
-content += "</p>";
-content += "</li>"
-content += "<li class='awswer'>";
-content += "<p class='textinanswer'data-key=2>";
-content += data.GoodPlace[i].reponse2;
-content += "</p>";
-content += "</li>";
-content += "<li class='awswer'>";
-content += "<p class='textinanswer'data-key=3>";
-content += data.GoodPlace[i].reponse3;
-content += "</p>";
-content += "</li>"
-content += "</ul>"
-content += "<ul class='ul'>";
-content += "<li class='awswer'>";
-content += "<p class='textinanswer'data-key=4>";
-content += data.GoodPlace[i].reponse4;
-content += "</p>";
-content += "</li>";
-content += "<li class='awswer'>";
-content += "<p class='textinanswer'data-key=5>";
-content += data.GoodPlace[i].reponse5;
-content += "</p>";
-content += "</li>";
-content += "<li class='awswer'>";
-content += "<p class='textinanswer'data-key=6>";
-content += data.GoodPlace[i].reponse6;
-content += "</p>";
-content += "</li>";
-content += "</ul>";
-content += "</div>";
-content += "</div>";
-section.innerHTML = content;
-return section
+   pagepack.innerHTML=content;
+  })
+    }
