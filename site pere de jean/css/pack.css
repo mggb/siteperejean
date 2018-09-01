@@ -1,0 +1,70 @@
+.ContainerHeaderPack{
+  height: 70vh;
+}
+.containerTitleHeaderPack{
+  text-align: center;
+position: absolute;
+top: 25%;
+left: 50%;
+transform: translateX(-50%);
+background: #C1272D;
+padding: 5px;
+}
+.containerImage{
+  height: 60vh;
+  width: 100vw;
+}
+.imageheaderpack{
+  height: 60vh;
+  width: 100vw;
+}
+.titlePagePack{
+
+}
+.ContainerHeaderPack{
+  height: 70vh;
+  width: 100%;
+}
+
+.text-presentation-pack{
+  margin: 50px;
+  max-width: 403px;
+}
+
+
+.containerListPack{
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+}
+.ListPack{
+  width: 33%;
+  height: 100%;
+  text-align: center;
+}
+.textinlistPack{
+      margin-top: 6%;
+}
+.red{
+  border-top: 1px solid red;
+}
+.yellow{
+  border-top: 1px solid yellow;
+}
+.blue{
+  border-top: 1px solid blue;
+}
+
+
+
+.title-list-container-pack{
+margin-top: 50px;
+}
+.container-list-pack{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.contain-list-pack{
+  margin-top: 15px;
+}

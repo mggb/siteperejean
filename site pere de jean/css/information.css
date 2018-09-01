@@ -1,0 +1,42 @@
+.header-page-information{
+  font-size: 40px;
+    width: 45%;
+    margin-bottom: 230px;
+    padding-top: 150px;
+}
+
+.container-title-information{
+  display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 50vw;
+}
+.ul-information-contain{
+
+}
+.date-information{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.time-date-information{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.information-places{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.container-ul{
+  display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 50vw;
+      margin-top: 50px;
+}
+.title-container-ul{
+  font-size: 25px;
+  margin-top: 50px;
+}
+.number{
+  margin-top: 25px;
+}
