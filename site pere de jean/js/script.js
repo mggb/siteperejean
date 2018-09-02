@@ -14,13 +14,35 @@ function name() {
 
   var listpack = document.querySelectorAll('.textinlistPack')
   var pagepack = document.querySelector('.container-page-pack');
+  var titleHeaderPack = document.querySelector('.titlePagePack')
+  var levrailistpack = document.querySelectorAll('.ListPack')
+
   for (let i = 0; i < listpack.length; i++) {
   listpack[i].addEventListener('click', function () {
+
+
+    if (listpack[i].textContent == titleHeaderPack.textContent ) {
+      console.log(listpack[i].textContent);
+     if (listpack[i].textContent ===  'Pack créateur' ) {
+       listpack[i].classList.add("red");
+     }
+     if (listpack[i].textContent == 'Pack comptabilité' ) {
+       listpack[i].classList.add("blue");
+     }
+     if (listpack[i].textContent == 'Pack paie & RH' ) {
+       levrailistpack[i].classList.add("yellow");
+       console.log(levrailistpack[i]);
+       console.log('je suis legal');
+     }
+
+    }
       console.log('ahh');
       var content = "<div class='ContainerHeaderPack'>";
            content += "<div class='container-header-pack'>";
              content += "<div class='containerImage'>";
-               content +="<img class='imageheaderpack' src="+data.pack[i].img+"alt=''>";
+               content += "<img class='imageheaderpack' src='";
+               content += data.pack[i].img;
+               content += "'alt='work'>";
              content += "</div>";
              content += "<div class='containerTitleHeaderPack'>";
                content += "<h2 class='titlePagePack'>";
@@ -30,13 +52,13 @@ function name() {
            content += "</div>";
            content += "  <ul class='containerListPack'>";
              content += "<li class='ListPack'>";
-               content += "<p class='textinlistPack'>pack createur</p>";
+               content += "<p class='textinlistPack'>Pack créateur</p>";
              content += "</li>";
              content += "<li class='ListPack'>";
-               content += "<p class='textinlistPack'>pack complet</p>";
+               content += "<p class='textinlistPack'>Pack comptabilité</p>";
              content += "</li>";
              content += "<li class='ListPack'>";
-               content += "<p class='textinlistPack'>pack complet</p>";
+               content += "<p class='textinlistPack'>Pack paie & RH</p>";
              content += "</li>";
            content += "</ul>";
          content += "</div>";
@@ -76,8 +98,35 @@ function name() {
        content += "</section>";
 
      pagepack.innerHTML=content;
+
       name()
     })
    }
 }
 name()
+
+
+
+
+/* page form */
+
+var nextpage = document.querySelector('.button-next');
+var input = document.querySelectorAll('.input-and-area-style');
+var pageone = document.querySelectorAll('.pageone');
+var pagetwo = document.querySelectorAll('.pagetwo')
+
+nextpage.addEventListener('click', function () {
+  for (var i = 0; i < input.length; i++) {
+    if (input[0].value == '') {
+      alert("Les champs ne sont pas remplie corectement");
+    }
+    else {
+      for (var i = 0; i < pageone.length; i++) {
+        pageone[i].style.display = "none";
+      }
+      for (var i = 0; i < pagetwo.length; i++) {
+        pagetwo[i].style.display = "block";
+      }
+    }
+  }
+})

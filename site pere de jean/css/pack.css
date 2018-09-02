@@ -46,19 +46,20 @@ padding: 5px;
       margin-top: 6%;
 }
 .red{
-  border-top: 1px solid red;
+  border-top: 10px solid red;
 }
 .yellow{
-  border-top: 1px solid yellow;
+  border-top: 10px solid yellow;
 }
 .blue{
-  border-top: 1px solid blue;
+  border-top: 10px solid blue;
 }
 
 
 
 .title-list-container-pack{
 margin-top: 50px;
+font-weight: bold;
 }
 .container-list-pack{
   display: flex;
