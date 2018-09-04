@@ -48,3 +48,11 @@ position: absolute;
 left: 2%;
 top: 0.5vh;
 }
+
+
+
+@media only screen and (min-device-width: 220px) and (max-device-width: 600px) {
+.link-menu{
+  font-size: 18px;
+}
+}

@@ -40,3 +40,29 @@
 .number{
   margin-top: 25px;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+.container-title-information{
+  width: 100vw;
+}
+.container-ul{
+  width: 100vw;
+}
+.date-information{
+  font-size: 18px;
+}
+.time-date-information{
+  font-size: 18px;
+}
+.information-places{
+  font-size: 18px;
+  }
+.header-page-information{
+  font-size: 30px;
+  margin-bottom: 13%;
+  padding-top: 150px;
+  width: 100%;
+}
+
+
+}

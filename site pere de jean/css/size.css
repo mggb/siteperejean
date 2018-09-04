@@ -9,3 +9,9 @@ p{
 .bold{
   font-weight: bold;
 }
+
+@media only screen and (min-device-width: 220px) and (max-device-width: 600px) {
+  p{
+    font-size: 18px;
+  }
+}
