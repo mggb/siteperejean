@@ -1,0 +1,58 @@
+.text-start-page-job{
+  display: block;
+  width: 35%;
+  margin-top: 15%;
+  margin-left: 10%;
+
+
+}
+.container-block-jobs{
+  display: block;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 5%;
+}
+.container-block-job{
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding: 2%;
+  margin-bottom: 3%;
+}
+.duration-block-job{
+  padding-left: 4%;
+}
+.title-block-job{
+  display: block;
+  font-size: 40px;
+  padding: 0 2%;
+}
+.text-block-job{
+  display: block;
+      margin-left: 2%;
+}
+.link-block-job{
+  width: 100%;
+max-width: 140px;
+margin-left: 80%;
+display: block;
+}
+
+
+
+
+
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.yellow{
+  background-color: yellow;
+}
+.green{
+  background-color: green;
+}
