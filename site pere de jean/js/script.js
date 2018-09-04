@@ -152,3 +152,17 @@ nextpage.addEventListener('click', function () {
     }
   }
 })
+
+
+
+/* page partner */
+
+var containerpartner = document.querySelector('.container-partner');
+var containchoice = document.querySelectorAll('.contain-choice');
+
+
+function partner() {
+  for (var i = 0; i < data2.partner; i++) {
+    data2[i]
+  }
+}
