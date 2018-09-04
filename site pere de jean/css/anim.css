@@ -11,10 +11,8 @@
   height: 35px;
   border: 2px solid #fff;
   border-radius: 25px;
-  opacity: 0.75;
+  opacity: 0.85;
   box-sizing: content-box;
-
-
 }
 .scroller {
   width: 3px;
