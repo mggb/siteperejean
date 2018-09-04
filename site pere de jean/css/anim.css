@@ -1,9 +1,5 @@
 .scroll-downs {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+
   margin: auto;
 
   width :34px;
@@ -17,7 +13,7 @@
   border-radius: 25px;
   opacity: 0.75;
   box-sizing: content-box;
-  margin-top: 400px;
+
 
 }
 .scroller {
