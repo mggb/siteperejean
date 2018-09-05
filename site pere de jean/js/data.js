@@ -41,75 +41,75 @@ var data = {
 var data2 = {
     partner: [{
         img: 'URSSAF.png',
-        link-img: 'www.impots.gouv.fr/',
+        linkimg: 'www.impots.gouv.fr/',
         categorie: 'fiscales'
     },{
         img: 'URSSAF.png',
-        link-img: 'www.urssaf.fr/',
+        linkimg: 'www.urssaf.fr/',
         categorie: 'fiscales'
     },{
         img: 'URSSAF.png',
-        link-img: 'www.urssaf.fr/',
+        linkimg: 'www.urssaf.fr/',
         categorie: 'sociales'
     },{
         img: 'POLE_EMPLOI.png',
-        link-img: 'www.pole-emploi.fr/accueil/',
+        linkimg: 'www.pole-emploi.fr/accueil/',
         categorie: 'sociales'
     },{
         img: 'RSI.png',
-        link-img: 'www.le-rsi.fr/',
+        linkimg: 'www.le-rsi.fr/',
         categorie: 'sociales'
     },{
         img: 'APEC.png',
-        link-img: 'www.apec.asso.fr',
+        linkimg: 'www.apec.asso.fr',
         categorie: 'sociales'
     },{
         img: 'ANC.png',
-        link-img: 'www.anc.gouv.fr',
+        linkimg: 'www.anc.gouv.fr',
         categorie: 'comptables'
     },{
         img: 'IFAC.png',
-        link-img: 'www.ifac.org',
+        linkimg: 'www.ifac.org',
         categorie: 'comptables'
     },{
         img: 'COURS_DES_COMPTES.png',
-        link-img: 'www.ccomptes.fr',
+        linkimg: 'www.ccomptes.fr',
         categorie: 'comptables'
     },{
         img: 'SOCIETE.png',
-        link-img: 'www.societe.com',
+        linkimg: 'www.societe.com',
         categorie: 'juridique'
     }, {
         img: 'INFOGREFFE.png',
-        link-img: 'www.infogreffe.fr',
+        linkimg: 'www.infogreffe.fr',
         categorie: 'juridique'
     }, {
         img: 'ASSEMBLE_NATIONALE.png',
-        link-img: 'www.assemblee-nationale.fr',
+        linkimg: 'www.assemblee-nationale.fr',
         categorie: 'juridique'
     }, {
         img: 'INSEE.png',
-        link-img: 'www.insee.fr',
+        linkimg: 'www.insee.fr',
         categorie: 'statistiques'
     }, {
         img: 'SOCIETE_GENERALE.png',
-        link-img: 'www.societegenerale.fr',
+        linkimg: 'www.societegenerale.fr',
         categorie: 'bancaire'
     },{
       img: 'HSBC.png',
-      link-img: 'www.hsbc.fr',
+      linkimg: 'www.hsbc.fr',
       categorie: 'bancaire'
     },{
       img: 'LCL.png',
-      link-img: 'www.lcl.fr',
+      linkimg: 'www.lcl.fr',
       categorie: 'bancaire'
     },{
       img: 'CIC.png',
-      link-img: 'www.cic.fr',
+      linkimg: 'www.cic.fr',
       categorie: 'bancaire'
     },{
       img: 'CA.png',
-      link-img: 'www.ca-atlantique-vendee.fr',
+      linkimg: 'www.ca-atlantique-vendee.fr',
       categorie: 'bancaire'
-    },]
+    }, ]
 };

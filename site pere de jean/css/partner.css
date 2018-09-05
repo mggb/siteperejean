@@ -1,5 +1,20 @@
+.container-sort{
+  display: flex;
+}
+
+
+
 .container-page-partner{
   background-color: #CC3333;
+  min-height: 100vh;
+}
+
+.information-link{
+margin: 7% 0 0 5%;
+}
+
+.container-partners{
+  margin-top: 5%;
 }
 .container-partner{
   display: flex;
@@ -10,5 +25,12 @@
 .contain-partner{
   width: 33vw;
   height: auto;
-  
+  text-align: center;
+  margin-bottom: 30px
+}
+
+
+.img-partner{
+  max-width: 185px;
+  width: 100%;
 }
