@@ -1,7 +1,14 @@
 .container-sort{
   display: flex;
+  max-width: 500px;
+justify-content: space-between;
+padding-top: 65px;
+padding-left: 62px;
 }
 
+.sort{
+  cursor: pointer;
+}
 
 
 .container-page-partner{
@@ -33,4 +40,19 @@ margin: 7% 0 0 5%;
 .img-partner{
   max-width: 185px;
   width: 100%;
+}
+
+@media only screen and (min-device-width: 220px) and (max-device-width: 670px) {
+  .container-sort{
+  display: flex;
+  max-width: 96px;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-top: 65px;
+  padding-left: 62px;
+}
+  .contain-partner{
+    width: 50vw;
+  }
 }
