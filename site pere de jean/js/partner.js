@@ -17,7 +17,6 @@ function partner() {
      addpartner += "' alt=''>"
      addpartner += "</a>"
      addpartner += "</li>"
-     console.log(data2.partner[i].linkimg);
      containerpartner.innerHTML += addpartner;
   }
 
@@ -26,11 +25,12 @@ function partner() {
     partner()
 
 sort.addEventListener('click',function () {
-  // container.innerHTML = '';
-  // console.log('yolo');
+
+  containerpartner.innerHTML =  '';
     for (var i = 0; i < data2.partner.length; i++) {
-      console.log('data2.partner[i].categorie');
-      if (data2.partner[i].categorie == containchoice.value  ) {
+
+
+      if (data2.partner[i].categorie + '' == containchoice.value  ) {
         var addpartner = "<li class='contain-partner'>";
          addpartner += "  <a href='";
          addpartner += data2.partner[i].linkimg;
@@ -40,10 +40,12 @@ sort.addEventListener('click',function () {
          addpartner += "' alt=''>"
          addpartner += "</a>"
          addpartner += "</li>"
-         console.log(data2.partner[i].linkimg);
          containerpartner.innerHTML += addpartner;
         }
 
+  }
+  if (containchoice.value == 'totalité') {
+    partner()
   }
 })
 
