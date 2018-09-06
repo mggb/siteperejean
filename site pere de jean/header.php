@@ -6,12 +6,12 @@
     <div class="test">
       <img class="close" src="assets/image/croix.svg" alt="close">
       <ul class="list-link">
-        <a href="#"><li class="link-menu">Aceuil</li></a>
+        <a href="index.php"><li class="link-menu">Aceuil</li></a>
         <a href=""><li class="link-menu">Le cabinet</li></a>
         <a href=""><li class="link-menu">Pack services</li></a>
-        <a href=""><li class="link-menu">Contacter nous</li></a>
-        <a href=""><li class="link-menu">recrutement</li></a>
-        <a href=""><li class="link-menu">Liens utile</li></a>
+        <a href="form"><li class="link-menu">Contacter nous</li></a>
+        <a href="job.php"><li class="link-menu">recrutement</li></a>
+        <a href="partner.php"><li class="link-menu">Liens utile</li></a>
         <a href=""><li class="link-menu">Votre espace</li></a>
 
       </ul>
