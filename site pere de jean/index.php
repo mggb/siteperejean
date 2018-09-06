@@ -38,17 +38,17 @@
     <div class="container-Service-Contact">
       <ul class="containerService">
         <li class="containInformation">
-          <img class="servicesImage" src="./assets/image/Logo_1.png"></img>
+          <img class="servicesImage" src="./assets/image/Logo_2.png"></img>
           <h3 class="titleOfService">Créer</h3>
           <h5 class="subtitleOfService">Imaginer, fonder, lancer</h5>
         </li>
         <li class="containInformation">
-          <img class="servicesImage" src="./assets/image/Logo_2.png"></img>
+          <img class="servicesImage" src="./assets/image/Logo_3.png"></img>
           <h3 class="titleOfService">Grandir</h3>
           <h5 class="subtitleOfService">Devenir plus grand</h5>
         </li>
         <li class="containInformation">
-          <img class="servicesImage" src="./assets/image/Logo_3.png"></img>
+          <img class="servicesImage" src="./assets/image/Logo_1.png"></img>
           <h3 class="titleOfService">Pérénniser</h3>
           <h5 class="subtitleOfService">Rendre durable</h5>
         </li>
@@ -85,50 +85,35 @@
 
 
   <section class="sixSection ">
-    <h2 class="title-containerGreatClients">Nos engagement pour vous satisfaire</h2>
+    <h2 class="title-containerGreatClients">Nos engagements à vos côtés</h2>
     <ul class="containerGreatClients ">
       <li class="SatisfactionOfTheClients">
-        <h3 class="titleOfTheClientsSatisfaction yellow">Bidule truc truc muche lol marrant</h3>
-        <p class="textOfTheClientsSatisfaction left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3 class="titleOfTheClientsSatisfaction yellow">Des prestations adaptées à votre demande</h3>
+        <p class="textOfTheClientsSatisfaction left">Prestations simples ou élaborées, régulières ou ponctuelles : tout est à la carte. Ainsi, vous profitez de toute la richesse de nos compétences comme vous le voulez, avec de vraies solutions sur mesures et évolutives.
+            La variété et la gamme de nos services vont des missions traditionnelles de tenue de comptabilité, d'expertise comptable et d'autres prestations plus spécialisées à la demande de nos clients : suivi budgétaire, contrôle de gestion, comptes de résultat..</p>
       </li>
       <li class="SatisfactionOfTheClients">
-        <h3 class="titleOfTheClientsSatisfaction red">Bidule truc truc muche lol marrant</h3>
-        <p class="textOfTheClientsSatisfaction right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3 class="titleOfTheClientsSatisfaction red">Un accompagnement personnalisé</h3>
+        <p class="textOfTheClientsSatisfaction right">Siloë AVM accompagne les entreprises et entités des secteurs privés, publics et associatifs en tant qu'expert-comptable et conseil ou commissaire aux comptes dans le domaine de la régularité et la fiabilité des comptes, de la prévention des risques, de la stratégie, des Systèmes d'Information, de la maîtrise des résultats.</p>
       </li>
       <li class="SatisfactionOfTheClients">
-        <h3 class="titleOfTheClientsSatisfaction purple">Bidule truc truc muche lol marrant</h3>
-        <p class="textOfTheClientsSatisfaction left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3 class="titleOfTheClientsSatisfaction purple">Une prise en charge rapide et compétente	</h3>
+        <p class="textOfTheClientsSatisfaction left">Chaque dossier est pris en charge par un collaborateur comptable dédié. En fonction des missions confiées au cabinet, cette équipe placée sous la responsabilité d’un expert comptable peut être complétée d'un collaborateur social et d'un collaborateur juridique.
+
+            Cette organisation spécifique permet d'assurer une réactivité et un niveau de compétence adaptée à votre attente..</p>
       </li>
       <li class="SatisfactionOfTheClients">
-        <h3 class="titleOfTheClientsSatisfaction blue">Bidule truc truc muche lol marrant</h3>
-        <p class="textOfTheClientsSatisfaction right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3 class="titleOfTheClientsSatisfaction blue">Une relation de confiance</h3>
+        <p class="textOfTheClientsSatisfaction right">Notre cabinet d’expertise comptable à taille humaine est spécialisé dans l'offre de services à une clientèle de PME-PMI-TPE, Industriels, Artisans, Commerçants, Professions libérales, Associations et Comités d'Entreprises.
+            Nos méthodes de travail garantissent des prestations de proximité et de qualité dans tous les domaines de gestion de l'entreprise.
+            .</p>
       </li>
     </ul>
     <div class="contain-boutton-contact">
       <p class="boutton-contact">Nous contacter</p>
     </div>
   </section>
-  <footer class="container-footer ">
-    <h2 class="name-of-the-work">Siloë AVM</h2>
-    <p class="text-in-footer">©2018 Siloë AVM, Inc.</p>
-    <ul class="container-menu-footer">
-      <a href=""><li class="menu-footer">acceuil</li></a>
-      <a href=""><li class="menu-footer">pack service</li></a>
-      <a href=""><li class="menu-footer">contacter nous</li></a>
-      <a href=""><li class="menu-footer">recrutement</li></a>
-      <a href=""><li class="menu-footer">lien utile</li></a>
-      <a href=""><li class="menu-footer">votre espace</li></a>
-    </ul>
-    <div class="container-adress">
-      <p class="text-in-footer">7 Mail Haroun Tazieff,</p>
-      <p class="text-in-footer">44300 Nantes </p>
-      <p class="text-in-footer">02 51 83 19 02</p>
-    </div>
-  </footer>
+<?php include('footer.php'); ?>
 </body>
 <script type="text/javascript" src="js/script.js"></script>
 </html>

@@ -11,7 +11,7 @@
 }
 .containerLogo{
   position: absolute;
-  right: 0;
+  right: 3%;
 }
 .imageLogo{
   width: 150px;
@@ -61,13 +61,14 @@
 }
 *//* section2 */
 .SecondSection{
-  padding: 0 10%;
+  padding: 0px 5%;
 }
 .SecondSection-text{
-  width: 90%;
-  margin: 40px auto;
+
+  margin: 150px 50px;
   line-height: 33px;
-  text-align: center;
+  max-width: 495px;
+
 }
 .SecondSection-image-work{
   width: 100%;
@@ -81,7 +82,7 @@
   text-align: center;
   width: 90%;
   font-size: 30px;
-  margin: 25px auto 0;
+  /* margin: 25px auto 0; */
 }
 .container-Service-Contact{
   text-align: center;
@@ -95,7 +96,7 @@
 }
 .containInformation{
   margin-bottom: 50px;
-    width: 25%;
+  width: 16%;
 }
 .servicesImage{
   width: 70%;
@@ -106,19 +107,20 @@
   font-weight: bold;
   font-size: 25px;
   margin-top: 15px;
+  TEXT-ALIGN: CENTER;
 }
 .subtitleOfService{
   text-align: left;
   font-size: 20px;
   margin-top: 15px;
+  text-align:  center;
 }
 .thirdSection-ContactMe{
-  margin: 0 auto 30px;
+  margin: 59px  auto 6%;
   display: block;
   max-width: 376px;
   height: auto;
   width: 100%;
-  border-radius: 10px;
   background-color: #993333;
   color: white;
 }
@@ -146,6 +148,10 @@
   }
 }
     /* 4 szection */
+
+.fourthSection{
+  margin: 0 5%;
+}
 .fourthSectionContent {
   background-color: rgba(0, 0, 0, 0.4);
   height: 100%;
@@ -159,11 +165,12 @@
 }
 .title-container-number{
   margin: 0 auto 50px;
-  padding-top: 20px;
+  padding-top: 10%;
   font-size: 50px;
   width: 80%;
   text-align: center;
   color: white;
+  text-transform:  uppercase;
 }
 .container-number{
   display: flex;
@@ -174,14 +181,14 @@
 }
 .contain-number{
   color: white;
-  width: 40%;
+  /* width: 40%; */
   font-size: 30px;
   margin-bottom: 50px;
 }
 @media only screen and (min-width: 600px) {
   .container-number{
-    width: 60%;
-    margin: 100px auto;
+    /* width: 60%; */
+    margin: 6% auto;
   }
 
 }
@@ -192,12 +199,14 @@
 }
 
 .title-containerGreatClients{
-  padding-top: 40px;
+  padding-top: 8%;
+  padding-bottom: 4%;
   width: 80%;
   margin: auto;
-  font-size: 50px;
+  /* font-size: 50px; */
   text-align: center;
   color: black;
+  text-transform: uppercase;
 }
 .containerGreatClients{
   display: flex;
@@ -218,24 +227,30 @@
   margin-bottom: 15px;
 }
 .yellow {
-  color: yellow;
+  /* color: yellow; */
   font-weight: bold;
   text-align: left;
+  color: FEAD46;
+  color: ";;
+;;;;;;;color: #FEAD46;;;;;;
 }
 .red {
-  color: red;
+  /* color: red; */
   font-weight: bold;
   text-align: right;
+  color:  #FC5352;
 }
 .purple {
   text-align: left;
-  color: purple;
+  /* color: purple; */
   font-weight: bold;
+  color: #B161FE;
 }
 .blue {
   text-align: right;
-  color: blue;
+  /* color: blue; */
   font-weight: bold;
+  color: #37D1F6;
 }
 .textOfTheClientsSatisfaction{
   margin-left: 15px;
@@ -252,13 +267,15 @@
 }
 .contain-boutton-contact{
   height: auto;
-  background: blue;
-  border-radius: 10px;
-  margin: 0 30px
+  /* background: blue; */
+  /* border-radius: 10px; */
+  margin: 0 30px;
+  BACKGROUND: #2B2B9E;
 }
 .boutton-contact{
   text-align: center;
-  padding: 50px 0 50px 0;
+  padding: 18px 0 18px 0;
+  color:  white;
 }
 
 .container-footer{
@@ -266,8 +283,8 @@
   width: 100%;
   height: auto;
   display: block;
-  padding-top: 54px;
-  padding-bottom: 10px;
+  padding-top: 32px;
+  padding-bottom: 9px;
 }
 
 .name-of-the-work{
@@ -298,8 +315,8 @@
 }
 @media only screen and (min-width: 1200px) {
   .container-menu-footer {
-    width: 30%;
-    margin-top: 20px;
+    width: 100%;
+    margin-top: 0px;
     margin-left: 60%;
   }
 }
@@ -332,5 +349,8 @@ display: none;
   font-size: 22px;
   margin-bottom: 12%;
 margin-top: 30px;
+}
+..titleOfTheClientsSatisfaction{
+  width: 100%;
 }
 }

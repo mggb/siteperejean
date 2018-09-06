@@ -40,6 +40,9 @@
 .number{
   margin-top: 25px;
 }
+container-full-information{
+    margin-left: 6%;
+}
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
 .container-title-information{

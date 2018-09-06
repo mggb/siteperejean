@@ -8,7 +8,13 @@ left: 20vw;
 }
 .link-menu{
   font-size: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 13px;
+  /* max-width:  100%; */
+  max-width: 318px;
+  text-align:  center;
+}
+.link-menu:hover{
+  color: #2B2B9E;
 }
 
 .container-information-menu{
@@ -20,13 +26,16 @@ left: 20vw;
 .title-information-menu{
   color: black;
   margin-left: 0%;
-font-size: 22px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
 }
 .subtitle-information-menu{
   font-size: 19px;
-margin-top: 10px;
-color: black;
-margin-left: 6%;
+  margin-top: 10px;
+  color: black;
+  margin-left: 6%;
+  font-weight:  bold;
 }
 .text-information-menu{
   color: black;
