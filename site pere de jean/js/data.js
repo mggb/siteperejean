@@ -1,9 +1,9 @@
 var data = {
     pack: [{
-        img: 'pack-createur.Png',
+        img: 'assets/image/header-packcréateur.jpg',
         title: 'Pack créateur',
         description: 'Vous aidez à construire, tout en ayant les bons conseils pour vous guider dans vos projets',
-        imgbody: 'pack-createur-body.Png',
+        imgbody: 'assets/image/pack-createur-body.Png',
         containeurlist: 'Ce que contien le pack createur',
         text1: 'Assistance à l’organisation administrative',
         text2: 'Conseils et accompagnement de vos financements',

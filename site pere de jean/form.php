@@ -26,7 +26,7 @@
         <input class="input-and-area-style pageone" type="text" name="name" placeholder="nom" value="">
         <input class="input-and-area-style pagetwo" type="text" name="phone"placeholder="telephone" value="">
         <input class="input-and-area-style pagetwo" type="email"placeholder="email"name="email" value="">
-        <input class="input-and-area-style pagetwo" type="text" name="subject" placeholder="objet du mail"value="">
+        <input class="input-and-area-style pagetwo" type="text" name="subjects" placeholder="objet du mail"value="">
         <textarea class="areastyle pagetwo" placeholder="message"name="message" rows="8" cols="80"></textarea>
         <input class="submit-style pagetwo" type="submit" name="" value="Envoyer">
       </form>

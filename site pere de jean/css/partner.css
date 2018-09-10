@@ -1,9 +1,11 @@
+@import url("fonts.css");
+
 .container-sort{
   display: flex;
   max-width: 500px;
-justify-content: space-between;
-padding-top: 65px;
-padding-left: 62px;
+  justify-content: space-between;
+  padding-top: 65px;
+  padding-left: 62px;
 }
 
 .sort{
@@ -37,7 +39,9 @@ margin: 7% 0 0 5%;
   /* text-align: center; */
   margin-bottom: 30px;
 }
-
+.text-partner{
+  font-weight: bold;
+}
 
 .img-partner{
   max-width: 185px;
@@ -56,5 +60,8 @@ margin: 7% 0 0 5%;
 }
   .contain-partner{
     width: 50vw;
+  }
+  .container-choice-partner{
+    margin: 10% 0;
   }
 }

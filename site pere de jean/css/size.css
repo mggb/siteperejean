@@ -1,3 +1,5 @@
+@import url("font.css");
+
 h2{
   font-size: 40px;
 }
@@ -14,5 +16,6 @@ p{
   p{
     font-size: 18px;
     line-height: 27px;
+    font-family: avenir-next;
   }
 }

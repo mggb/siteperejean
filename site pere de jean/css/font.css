@@ -1,0 +1,12 @@
+@font-face {
+    font-family: avenir-next;
+    src: url(../assets/fonts/Avenir_Next_LT_Pro_Demi.ttf);
+}
+@font-face {
+    font-family: montsera-regular;
+    src: url(../assets/fonts/MontserratAlternates-Regular.otf);
+}
+@font-face {
+    font-family: montsera-bold;
+    src: url(../assets/fonts/Montserrat-Bold.otf);
+}

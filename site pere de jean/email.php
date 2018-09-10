@@ -1,7 +1,7 @@
 <?php
-     //-----------------------------------------------
-     //DECLARE LES VARIABLES
-     //-----------------*
+
+
+
 
 
 
@@ -9,73 +9,31 @@
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+$subjects = $_POST['subject'];
+$messages = $_POST['message'];
 
 
-$email_expediteur='votre_mail@fai.fr';
-    $email_reply='email_de_reponse@fai.fr';
-    $message_texte='Bonjour,'."\n\n".'Voici un message au format texte';
 
-    $message_html='<html>
-    <head>
-    <title>Titre</title>
-    </head>
-    <body>Test de message</body>
-    </html>';
 
-    //-----------------------------------------------
-    //GENERE LA FRONTIERE DU MAIL ENTRE TEXTE ET HTML
-    //-----------------------------------------------
 
-    $frontiere = '-----=' . md5(uniqid(mt_rand()));
 
-    //-----------------------------------------------
-    //HEADERS DU MAIL
-    //-----------------------------------------------
+    ini_set( 'display_errors', 1 );
 
-    $headers = 'From: "Nom" <'.$email_expediteur.'>'."\n";
-    $headers .= 'Return-Path: <'.$email_reply.'>'."\n";
-    $headers .= 'MIME-Version: 1.0'."\n";
-    $headers .= 'Content-Type: multipart/mixed; boundary="'.$frontiere.'"';
+    error_reporting( E_ALL );
 
-    //-----------------------------------------------
-    //MESSAGE TEXTE
-    //-----------------------------------------------
-    $message = 'This is a multi-part message in MIME format.'."\n\n";
+    $from = $email;
 
-    $message .= '--'.$frontiere."\n";
-    $message .= 'Content-Type: text/plain; charset="iso-8859-1"'."\n";
-    $message .= 'Content-Transfer-Encoding: 8bit'."\n\n";
-    $message .= $message_texte."\n\n";
+    $to = "gelbonmathieu@hotmail.fr";
 
-    //-----------------------------------------------
-    //MESSAGE HTML
-    //-----------------------------------------------
-    $message .= '--'.$frontiere."\n";
+    $subject = $subjects;
 
-    $message .= 'Content-Type: text/html; charset="iso-8859-1"'."\n";
-    $message .= 'Content-Transfer-Encoding: 8bit'."\n\n";
-    $message .= $message_html."\n\n";
+    $message = $messages;
 
-    $message .= '--'.$frontiere."\n";
+    $headers = "From:" . $from;
 
-    //-----------------------------------------------
-    //PIECE JOINTE
-    //-----------------------------------------------
+    mail($to,$subject,$message, $headers);
 
-    $message .= 'Content-Type: image/jpeg; name="nom_du_fichier.jpg"'."\n";
-    $message .= 'Content-Transfer-Encoding: base64'."\n";
-    $message .= 'Content-Disposition:attachement; filename="nom_du_fichier.jpg"'."\n\n";
-
-    $message .= chunk_split(base64_encode(file_get_contents('nom_du_fichier.jpg')))."\n";
-
-    if(mail($destinataire,$sujet,$message,$headers))
-    {
-         echo 'Le mail a été envoyé';
-    }
-    else
-    {
-         echo 'Le mail n\'a pu être envoyé';
-    }
+    echo "L'email a été envoyé.";
 ?>
+
+

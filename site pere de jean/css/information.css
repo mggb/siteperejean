@@ -1,3 +1,5 @@
+@import url("fonts.css");
+
 .header-page-information{
   font-size: 40px;
     width: 45%;
@@ -9,18 +11,23 @@
   display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      width: 50vw;
+      width: 75vw;
 }
 .ul-information-contain{
 
 }
+.container-full-information{
+    padding: 0px 5%;
+    margin: 6% 0px;
+}
+
 .date-information{
   font-size: 22px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 .time-date-information{
   font-size: 22px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 .information-places{
   font-size: 22px;
@@ -30,7 +37,7 @@
   display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      width: 50vw;
+      width: 75vw;
       margin-top: 50px;
 }
 .title-container-ul{

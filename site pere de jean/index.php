@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/anim.css">
   <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/font.css">
 
   <title>Document</title>
 </head>
@@ -109,10 +110,19 @@
             .</p>
       </li>
     </ul>
-    <div class="contain-boutton-contact">
-      <p class="boutton-contact">Nous contacter</p>
-    </div>
+
   </section>
+    <section class="sevensection">
+        <img class="SecondSection-image-work" src="assets/image/work.png" alt="work">
+        <p class="text-mobile-app">Retrouvez nous sur votre téléphone portable :</p>
+        <div class="container-app-mobile">
+           <a class="link-app" href="apli"><img class="img-link-app " src="assets/image/google Play.png" alt="work"></a>
+           <a class="link-app" href="apli"><img class="img-link-app " src="assets/image/App-Store-Apple.png" alt="work"></a>
+        </div>
+        <div class="contain-boutton-contact">
+            <p class="boutton-contact">Nous contacter</p>
+        </div>
+    </section>
 <?php include('footer.php'); ?>
 </body>
 <script type="text/javascript" src="js/script.js"></script>

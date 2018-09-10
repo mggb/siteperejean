@@ -1,3 +1,6 @@
+@import url("fonts.css");
+
+
 .contaiiner-form{
   width: 100vw;
   height: 100vh;
@@ -40,7 +43,8 @@ height: auto;
 font-size: 18px;
 }
 input:first-child {
-  margin-top: 40%;
+  /* margin-top: 40%; */
+  margin-top: 50vh;
 }
  input:nth-child(2) {
    margin-top: 20%;

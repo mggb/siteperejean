@@ -42,12 +42,12 @@
         <img class="SecondSection-image-work" src="assets/image/work-section2.jpg" alt="work">
         <h3 class="title-list-container-pack">liste du pack</h3>
         <ul class="container-list-pack">
-          <li class="contain-list-pack">je suis ton pere</li>
-          <li class="contain-list-pack">je suis ton pere</li>
-          <li class="contain-list-pack">je suis ton pere</li>
-          <li class="contain-list-pack">je suis ton pere</li>
-          <li class="contain-list-pack">je suis ton pere</li>
-          <li class="contain-list-pack">je suis ton pere</li>
+          <li class="contain-list-pack"></li>
+          <li class="contain-list-pack">Assistance à l’organisation administrative</li>
+          <li class="contain-list-pack">Conseils et accompagnement de vos financements</li>
+          <li class="contain-list-pack">Révision des comptes</li>
+          <li class="contain-list-pack">Bilan et déclarations fiscales obligatoires</li>
+          <li class="contain-list-pack">Conseils sur le choix du statut juridique (SARL, SAS, EIRL, EURL)</li>
         </ul>
       </section>
     </div>
